@@ -14,7 +14,6 @@
     --secondary-font-size:25px;
 }
 
-
 *,
 *::after,
 *::before{
@@ -39,17 +38,92 @@ body{
 p{
     text-align: center;
 }
-/* custome scroll bar
-::-webkit-scrollbar{
-    width: 0.5rem;
-}
-::-webkit-scrollbar-track{
-    background-color: var(--white-color);
+
+
+a{
+    transition: all .4s ease-out 0s;
 }
 
-::-webkit-scrollbar-thumb{
-    background-color: var(--primary-color);
-} */
+a:hover{
+    color: #8090b0 !important;
+}
+
+/* imageslider */
+.bodybanner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.imageslider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 20;
+}
+
+#imgslide{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider {
+   from{
+    opacity: 0.8;
+   }
+   to{
+    opacity: 0.9;
+   }
+}
+/* image slider close */
+
+/* cover page center detail */
+.detailBox{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    position: absolute;
+    top: 0;
+}
+
+/* for text slider */
+.textSlider{
+    display: inline-block;
+}
+.textSlider div{
+    width: 700px;
+}
+/* home body ::content */
+.bodyContent{
+    text-align: center;
+    width: 700px;
+    position: absolute;
+    left: 28%;
+    top: 75%;
+    transform: translateY(-50%);
+    /* width: 50%;
+    margin:25% auto;*/
+    color: white; 
+}
+/* end of the coverpage center details */
+
+/* navigation bar part */
+.navbar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    top: 10px;
+    justify-content: space-around;
+}
+.logo h1{
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
 
 
 :active,
@@ -58,30 +132,45 @@ p{
     outline: 0 !important;
     outline-offset: 0;
 }
-.nav-link{
-    color: var(--primary-color) !important;
+.nav-links{
     font-size: var(--primary-font-size);
     letter-spacing: 1px;
     font-weight: 500;
     font-family:var(--primary-font);
 }
-a{
-    transition: all .4s ease-out 0s;
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block; 
+    position: relative;
+}
+.nav-links ul li::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--white-color);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.2s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
 }
 
-a:hover{
-    color: var(--secondary-color) !important;
-}
 ul,
 li{
     margin-inline: 10px;
     padding: 0;
 }
 
+/* end of navbar */
+
 
 /* css heading designs */
-
-
 
 /* for button  */
 
@@ -105,15 +194,16 @@ li{
     color: var(--primary-color);
     border:2px solid var(--primary-color);
 }
-
+/* button with the background transparant */
 .white-btn{
     display: inline-block;
     padding: 0.65rem 1.875rem;
     line-height: 1.5625rem;
-    background-color: var(--white-color);
+    background-color: transparent;
     font-family:var(--primary-font);
-    border: none;
-    color: var(--primary-color);
+    border:2px solid white;
+    border-radius: 25px;
+    color: white;
     font-size: 0.9375rem;
     text-transform: capitalize;
     box-shadow: 0px 2px 10px -1px rgb(0, 0, 0 /19%);
@@ -123,59 +213,7 @@ li{
 
 .white-btn:hover{
     background-color: var(--white-color);
-    color: var(--primary-color);
+    color: #01205C;
+    border: none;
 }
-
-.wrapper{
-    padding-top: 8.2rem;
-    padding-bottom: 8.25rem;
-    font-family:var(--primary-font);
-
-}
-
-.text-content{
-    width: 70%;
-    margin: auto;
-}
-
-/* for toogle navbar */
-
-.navbar-toggler:focus{
-    outline: unset;
-    border: unset;
-    box-shadow: none;
-}
-.banner{
-    padding: 5rem 0rem 1rem 3rem;
-    width: 100%;
-    background-color: var(--light-gray-color);
-    border-radius: 35px;
-    font-family:var(--primary-font);
-}
-/* banner section  */
-.banner-img{
-    width:100%;
-    height:100%;
-    object-fit: fill;
-    border-radius: 25px;
-}
-
-/* toogle bars */
-.navbar-toggler-icon {
-    background-image: none;
-  }
-  .navbar-toggler-icon::before {
-    font-family: FontAwesome;
-    content: "\f0c9"; /* fa-bars, fa-navicon */
-  }
-
-  /* foods section */
-
-  .foods{
-    width: 100vw;
-    padding: 50px;
-  }
-  .footericon{
-    font-size:28px; 
-    color: black;
-  }
+/* button details close */
