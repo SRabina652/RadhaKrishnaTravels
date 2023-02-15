@@ -85,9 +85,10 @@ nav a {
     min-width: 300px;
 }
 
-.homehero .col-2 .textdata {
-    padding-right: 70px;
+.homehero .col-2 .textdata{
+    margin: 0 50px 0 0;
 }
+
 
 .homehero .col-2 img {
     max-width: 100%;
@@ -200,6 +201,7 @@ nav a {
 
 .tourdestination .col-2 .textdata {
     padding-left: 70px;
+    margin: 0 0 0 20px;
 }
 
 .tourdestination .col-2 img {
@@ -229,10 +231,10 @@ nav a {
     flex-basis: 23%;
     min-width: 200px;
     padding: 20px 20px;
-    margin: 0 10px;
+    margin: 10px 10px;
     border-radius: 50px;
     border: 3px solid #003048;
-    height: 500px;
+    height: 550px;
     /*
     transition: transform 0.5s;
     */
@@ -301,7 +303,7 @@ nav a {
     transition: transform 0.5s;
     */
     padding: 60px 20px;
-    margin: 0 20px;
+    margin: 10px 20px;
 }
 
 /*
@@ -512,4 +514,18 @@ nav a {
 
 #radio4:checked~.navigation-auto .auto-btn4 {
     background: #000;
+}
+
+/*-----------------------Media Query for less than 600 screen size-----------------------*/
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4, .col-5 {
+    
+        flex-basis: 100%;
+    }
+
 }
