@@ -16,7 +16,7 @@
 
 <body>
     <div class="background">
-        <div class="navbar">
+        <div class="nav-bar">
             <div class="logo">
                 <h1><a href="">RadhaKrishnaHolidays</a></h1>
             </div>
@@ -27,7 +27,7 @@
                     <li><a href="">Trekking</a></li>
                     <li><a href="">Tour Package</a></li>
                     <li><a href="">Services</a></li>
-                    <li><a href="">Book Now</a></li>
+                    <li><a href="booknow.php">Book Now</a></li>
                     <li><a href="">About Us</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>

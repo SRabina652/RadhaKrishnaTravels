@@ -1,7 +1,7 @@
 <!-------------------- Footer -------------------->
 <div class="footer">
-            <div class="container">
-                <div class="row">
+            <div class="container-box">
+                <div class="row-data">
                     <div class="footer-col-1">
                         <h3>Explore</h3>
                         <ul>

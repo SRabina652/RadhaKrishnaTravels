@@ -5,9 +5,9 @@ include 'includes/navigation-bar.php';
 
 <!-------------------- HomeHero -------------------->
 <div class="homehero">
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
+    <div class="container-box">
+        <div class="row-data">
+            <div class="column-2">
                 <div class="textdata">
                     <h1>Welcome To Radha Krishna Holidays</h1>
                     <p>Tour operator/agency for Nepal, Tibet and Bhutan in Kathmandu. We provide quality trips for our beloved customers in reasonable cost. As an adventure travel company we offer a wide range of tour and travel activities such as Nepal trekking, hiking, culture and sightseeing tour with professional guides (who can clearly describe the history and religious significant of the places), walking holidays in the low altitude to higher mountain peaks, wildlife tours, rafting, day hiking and many more. Our major operation destinations are Nepal, Tibet, Bhutan and kailash mansarovar yatra.</p>
@@ -15,7 +15,7 @@ include 'includes/navigation-bar.php';
                 </div>
 
             </div>
-            <div class="col-2">
+            <div class="column-2">
                 <img src="images/homepage/Home-hero-img.jpg" alt="">
             </div>
         </div>
@@ -24,28 +24,28 @@ include 'includes/navigation-bar.php';
 <hr>
 <!-------------------- Our Tour Destination -------------------->
 <div class="tourdestination">
-    <div class="container">
+    <div class="container-box">
         <h2 class="titles">Our Tour Destination</h2>
-        <div class="row">
-            <div class="col-5">
+        <div class="row-data">
+            <div class="column-5">
                 <a href="" class="btn-list">Nepal</a>
             </div>
-            <div class="col-5">
+            <div class="column-5">
                 <a href="" class="btn-list">India</a>
             </div>
-            <div class="col-5">
+            <div class="column-5">
                 <a href="" class="btn-list">Bhutan</a>
             </div>
-            <div class="col-5">
+            <div class="column-5">
                 <a href="" class="btn-list">Tibet</a>
             </div>
-            <div class="col-5">
+            <div class="column-5">
                 <a href="" class="btn-list">Outbound</a>
             </div>
         </div>
         <!-------------------- Our Tour Destination Description slide -------------------->
         <div class="tourdestinationdescription">
-            <div class="row">
+            <div class="row-data">
                 <div class="slider">
                     <div class="slides">
                         <!--radio buttons start-->
@@ -58,11 +58,11 @@ include 'includes/navigation-bar.php';
                         <!--slide images start-->
                         <div class="slide first">
                             <div class="tourdestinationdescription">
-                                <div class="row">
-                                    <div class="col-2">
+                                <div class="row-data">
+                                    <div class="column-2">
                                         <img src="images/homepage/Country-Nepal.jpg" alt="">
                                     </div>
-                                    <div class="col-2">
+                                    <div class="column-2">
                                         <div class="textdata">
                                             <h1>Nepal Tour</h1>
                                             <p>Situated in the lap of the mighty Himalayas, the souvenir nation of Nepal is blessed with rich history and bottomless natural beauty. A travellers paradise overfilled with numerous opportunities for sightseeing travel, fascinating geographical marvel, every corner of Nepal tend to mesmerize the foreign visitors with the authentic and varied travel experiences that is purely irresistible as time goes by.</p>
@@ -74,11 +74,11 @@ include 'includes/navigation-bar.php';
                         </div>
                         <div class="slide">
                             <div class="tourdestinationdescription">
-                                <div class="row">
-                                    <div class="col-2">
+                                <div class="row-data">
+                                    <div class="column-2">
                                         <img src="images/homepage/Country-India.jpg" alt="">
                                     </div>
-                                    <div class="col-2">
+                                    <div class="column-2">
                                         <div class="textdata">
                                             <h1>India Tour</h1>
                                             <p>Situated in the lap of the mighty Himalayas, the souvenir nation of Nepal is blessed with rich history and bottomless natural beauty. A travellers paradise overfilled with numerous opportunities for sightseeing travel, fascinating geographical marvel, every corner of Nepal tend to mesmerize the foreign visitors with the authentic and varied travel experiences that is purely irresistible as time goes by.</p>
@@ -90,11 +90,11 @@ include 'includes/navigation-bar.php';
                         </div>
                         <div class="slide">
                             <div class="tourdestinationdescription">
-                                <div class="row">
-                                    <div class="col-2">
+                                <div class="row-data">
+                                    <div class="column-2">
                                         <img src="images/homepage/Country-Bhutan.jpg" alt="">
                                     </div>
-                                    <div class="col-2">
+                                    <div class="column-2">
                                         <div class="textdata">
                                             <h1>Bhutan Tour</h1>
                                             <p>Situated in the lap of the mighty Himalayas, the souvenir nation of Nepal is blessed with rich history and bottomless natural beauty. A travellers paradise overfilled with numerous opportunities for sightseeing travel, fascinating geographical marvel, every corner of Nepal tend to mesmerize the foreign visitors with the authentic and varied travel experiences that is purely irresistible as time goes by.</p>
@@ -106,11 +106,11 @@ include 'includes/navigation-bar.php';
                         </div>
                         <div class="slide">
                             <div class="tourdestinationdescription">
-                                <div class="row">
-                                    <div class="col-2">
+                                <div class="row-data">
+                                    <div class="column-2">
                                         <img src="images/homepage/Country-Tibet.jpg" alt="">
                                     </div>
-                                    <div class="col-2">
+                                    <div class="column-2">
                                         <div class="textdata">
                                             <h1>Tibet Tour</h1>
                                             <p>Situated in the lap of the mighty Himalayas, the souvenir nation of Nepal is blessed with rich history and bottomless natural beauty. A travellers paradise overfilled with numerous opportunities for sightseeing travel, fascinating geographical marvel, every corner of Nepal tend to mesmerize the foreign visitors with the authentic and varied travel experiences that is purely irresistible as time goes by.</p>
@@ -161,10 +161,10 @@ include 'includes/navigation-bar.php';
 <hr>
 <!-------------------- Our Trekking Destination -------------------->
 <div class="trekdestination">
-    <div class="container">
+    <div class="container-box">
         <h2 class="titles">Our Trekking Destination</h2>
-        <div class="row">
-            <div class="col-4">
+        <div class="row-data">
+            <div class="column-4">
                 <a href="">
                     <img src="images/homepage/Trek-Annapurna.jpg" alt="">
                 </a>
@@ -172,7 +172,7 @@ include 'includes/navigation-bar.php';
                 <h4>Annapurna</h4>
                 <p>Annapurna Circuit Trek is a popular classic trek of Nepal. Each year, more than 60,000 trekkers come for this trek from all around the globe. In this trek, you encircle the Annapurna massif and cover between 110-130 miles by walking.</p>
             </div>
-            <div class="col-4">
+            <div class="column-4">
                 <a href="">
                     <img src="images/homepage/Trek-Dolkha.jpg" alt="">
                 </a>
@@ -180,7 +180,7 @@ include 'includes/navigation-bar.php';
                 <h4>Dolkha</h4>
                 <p>Annapurna Circuit Trek is a popular classic trek of Nepal. Each year, more than 60,000 trekkers come for this trek from all around the globe. In this trek, you encircle the Annapurna massif and cover between 110-130 miles by walking.</p>
             </div>
-            <div class="col-4">
+            <div class="column-4">
                 <a href="">
                     <img src="images/homepage/Trek-Dolpa.jpg" alt="">
                 </a>
@@ -188,7 +188,7 @@ include 'includes/navigation-bar.php';
                 <h4>Dolpa</h4>
                 <p>Annapurna Circuit Trek is a popular classic trek of Nepal. Each year, more than 60,000 trekkers come for this trek from all around the globe. In this trek, you encircle the Annapurna massif and cover between 110-130 miles by walking.</p>
             </div>
-            <div class="col-4">
+            <div class="column-4">
                 <a href="">
                     <img src="images/homepage/Trek-Everest.jpg" alt="">
                 </a>
@@ -203,10 +203,10 @@ include 'includes/navigation-bar.php';
 <hr>
 <!-------------------- Testimonial -------------------->
 <div class="testimonial">
-    <div class="container">
+    <div class="container-box">
         <h2 class="titles">Testimonial</h2>
-        <div class="row">
-            <div class="col-3">
+        <div class="row-data">
+            <div class="column-3">
                 <i class="fa fa-quote-left"></i>
                 <p>Gladly saying, you guys are excellent. When I decided to make a Bhutan trip with you, I made the best choice. Hope to have another trip with you guys.</p>
                 <div class="rating">
@@ -219,7 +219,7 @@ include 'includes/navigation-bar.php';
                 <img src="images/homepage/Testimonial-human1.jpg" alt="">
                 <h3>Mr. Aashish Jha</h3>
             </div>
-            <div class="col-3">
+            <div class="column-3">
                 <i class="fa fa-quote-left"></i>
                 <p>Gladly saying, you guys are excellent. When I decided to make a Bhutan trip with you, I made the best choice. Hope to have another trip with you guys.</p>
                 <div class="rating">
@@ -232,7 +232,7 @@ include 'includes/navigation-bar.php';
                 <img src="images/homepage/Testimonial-human2.jpg" alt="">
                 <h3>Mr. Aashish Jha</h3>
             </div>
-            <div class="col-3">
+            <div class="column-3">
                 <i class="fa fa-quote-left"></i>
                 <p>Gladly saying, you guys are excellent. When I decided to make a Bhutan trip with you, I made the best choice. Hope to have another trip with you guys.</p>
                 <div class="rating">
