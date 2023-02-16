@@ -26,9 +26,9 @@
         <div class="nav-links">
           <ul>
             <li><a href="home.php">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="bookNow.php">Book Now</a></li>
             <li><a href="#">Mountain Flight</a></li>
-            <li><a href="#">Trekking</a></li>
+            <li><a href="sendmessage.php">Trekking</a></li>
             <li><a href="#">Tour Packages</a></li>
             <li><a href="#">Services</a></li>
           </ul>
