@@ -35,9 +35,9 @@ body{
     
 }
 
-p{
+/* p{
     text-align: center;
-}
+} */
 
 
 a{
@@ -89,24 +89,29 @@ a:hover{
 }
 
 /* for text slider */
-.textSlider{
-    display: inline-block;
-}
-.textSlider div{
-    width: 700px;
-}
-/* home body ::content */
-.bodyContent{
-    text-align: center;
-    width: 700px;
+.msgContainer{
+    /* text-align: center; */
+    width: 600px;
     position: absolute;
-    left: 28%;
-    top: 75%;
+    left: 30%;
+    top: 70%;
     transform: translateY(-50%);
-    /* width: 50%;
-    margin:25% auto;*/
-    color: white; 
+    color: white;
+    /* overflow: hidden; */
 }
+/* text slider */
+/* .textContent{
+    display: inline-flex;
+}
+.textVal{
+    width: 600px;
+} */
+
+/* home body ::content */
+
+/* .slideTextContent{
+    color: ;
+} */
 /* end of the coverpage center details */
 
 /* navigation bar part */
